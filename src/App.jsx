@@ -42,7 +42,7 @@ function App() {
       ${open ? "w-[6rem] px-5 pt-5 bg-white" : "w-[0rem] "}`}
         >
           <h3 className="font-bold">LOGO</h3>
-          <ul className="flex flex-col md:flex-row mt-24 bg-bgColor border-[1px] border-white px-8 py-2 rounded-xl md:mt-0 gap-4 text-black font-medium">
+          <ul className="flex flex-col md:flex-row mt-24 md:bg-bgColor md:border-[1px] md:border-white md:px-8 md:py-2 rounded-xl md:mt-0 gap-4 text-black font-medium">
             <li className="">Home</li>
             <li>About</li>
             <li>Contact</li>
